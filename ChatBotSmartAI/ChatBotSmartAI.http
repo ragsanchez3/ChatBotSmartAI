@@ -1,0 +1,6 @@
+@ChatBotSmartAI_HostAddress = http://localhost:5099
+
+GET {{ChatBotSmartAI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
