@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\ProjetosAI\\ChatBotSmartAI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\services\\ivectordbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\services\\ivectordbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\services\\postgresvectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\services\\postgresvectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\engines\\chatorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\engines\\chatorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|d:\\projetosai\\chatbotsmartai\\chatbotsmartai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F3F906-B31A-4DE0-836A-12876D286796}|ChatBotSmartAI\\ChatBotSmartAI.csproj|solutionrelative:chatbotsmartai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +59,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IVectorDbService.cs",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Services\\IVectorDbService.cs",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\Services\\IVectorDbService.cs",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Services\\IVectorDbService.cs",
+              "RelativeToolTip": "ChatBotSmartAI\\Services\\IVectorDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:32:37.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostgresVectorService.cs",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Services\\PostgresVectorService.cs",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\Services\\PostgresVectorService.cs",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Services\\PostgresVectorService.cs",
+              "RelativeToolTip": "ChatBotSmartAI\\Services\\PostgresVectorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:31:46.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatOrchestrator.cs",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Engines\\ChatOrchestrator.cs",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\Engines\\ChatOrchestrator.cs",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Engines\\ChatOrchestrator.cs",
+              "RelativeToolTip": "ChatBotSmartAI\\Engines\\ChatOrchestrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:31:05.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Program.cs",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\Program.cs",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Program.cs",
+              "RelativeToolTip": "ChatBotSmartAI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:29:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\appsettings.json",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\appsettings.json",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\appsettings.json",
+              "RelativeToolTip": "ChatBotSmartAI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T14:28:41.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "ChatBotSmartAI\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "ChatBotSmartAI\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:28:17.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\ProjetosAI\\ChatBotSmartAI\\ChatBotSmartAI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ChatBotSmartAI\\WeatherForecast.cs",

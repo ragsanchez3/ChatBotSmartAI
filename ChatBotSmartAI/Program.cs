@@ -1,25 +1,26 @@
-var builder = WebApplication.CreateBuilder(args);
+using ChatBotSmartAI.Services;
+using ChatBotSmartAI.Engines;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-// Add services to the container.
+var builder = Host.CreateApplicationBuilder(args);
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Configurações (Idealmente viriam do appsettings.json)
+string pgConn = "Host=localhost;Port=5432;Database=smart_ai_db;Username=postgres;Password=suasenha";
+string openAiKey = "sua-chave-aqui";
 
-var app = builder.Build();
+// Injeção de Dependência
+builder.Services.AddSingleton<IVectorDbService>(sp =>
+    new PostgresVectorService(pgConn, openAiKey));
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+builder.Services.AddScoped<ChatOrchestrator>();
 
-app.UseHttpsRedirection();
+using IHost host = builder.Build();
 
-app.UseAuthorization();
+// Exemplo de uso rápido no console
+var orchestrator = host.Services.GetRequiredService<ChatOrchestrator>();
+var resposta = await orchestrator.GenerateResponseAsync("Como funciona a política de garantia?");
 
-app.MapControllers();
+Console.WriteLine(resposta);
 
-app.Run();
+await host.RunAsync();
