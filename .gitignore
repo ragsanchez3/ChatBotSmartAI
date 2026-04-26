@@ -1,0 +1,27 @@
+## .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Publicação / Build
+publish/
+out/
+
+## Configurações Sensíveis (IMPORTANTE)
+# Não envie chaves de API ou strings de conexão para o Git
+appsettings.Development.json
+appsettings.Local.json
+
+## Logs e Banco de Dados Local
+*.log
+*.db
+*.sqlite
+
+## Sistema Operacional
+.DS_Store
+Thumbs.db

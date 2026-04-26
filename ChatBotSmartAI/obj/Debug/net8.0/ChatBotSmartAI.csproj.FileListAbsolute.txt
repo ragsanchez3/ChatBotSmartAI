@@ -33,3 +33,4 @@ D:\ProjetosAI\ChatBotSmartAI\ChatBotSmartAI\obj\Debug\net8.0\refint\ChatBotSmart
 D:\ProjetosAI\ChatBotSmartAI\ChatBotSmartAI\obj\Debug\net8.0\ChatBotSmartAI.pdb
 D:\ProjetosAI\ChatBotSmartAI\ChatBotSmartAI\obj\Debug\net8.0\ChatBotSmartAI.genruntimeconfig.cache
 D:\ProjetosAI\ChatBotSmartAI\ChatBotSmartAI\obj\Debug\net8.0\ref\ChatBotSmartAI.dll
+D:\ProjetosAI\ChatBotSmartAI\ChatBotSmartAI\obj\Debug\net8.0\ChatBotSmartAI.sourcelink.json
